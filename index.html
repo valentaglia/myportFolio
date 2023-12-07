@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon"
+        href="https://static.vecteezy.com/system/resources/previews/002/275/818/non_2x/female-avatar-woman-profile-icon-for-network-vector.jpg">
+
+</head>
+
+
+<body>
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a  class="active"><br></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#portafolio">Algunos de mis proyectos</a>
+            <a href="#yo">Acerca de mí</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+    <!--MI NOMBRE Y MI FOTO-->
+    <div class="color2">
+        <h1 id="valen">Valentina Tagliaferro</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4"></div>
+                <div class="col-sm-12 col-lg-4">
+
+                    <img id="val" src="Fotocv.JPG" alt="fotoCV">
+                </div>
+                <div class="col-sm-12 col-lg-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--MI PORTAFOLIO-->
+    <div class="color3">
+        <h2 id="portafolio">PORTAFOLIO</h2>
+        <hr>
+        <div id="porta" class="container">
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-2"></div>
+                <div class="col-sm-12 col-lg-3">
+                    <h5><u>COLOR GAME</u></h5>
+                    <a href="https://colorgamevalen.netlify.app/"><img class="portfolio radius"
+                            src="https://png.pngtree.com/png-vector/20190114/ourlarge/pngtree-vector-video-game-icon-png-image_313030.jpg"
+                            alt="violetas"></a>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <h5><u>TO DO LIST</u></h5>
+                    <a href="https://todolistvalen.netlify.app/"><img class="portfolio radius"
+                            src="https://png.pngtree.com/element_our/png_detail/20181205/list-vector-icon-png_256685.jpg"
+                            alt="margaritas"></a>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <h5><u>WEATHER CHANNEL</u></h5>
+                    <a href="https://weatherchannelvalen.netlify.app/"><img class="portfolio" src="CLIMA.JPG"
+                            alt="salmon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="color2" id="yo">
+        <h2>Acerca de mí</h2>
+        <hr>
+        <p> ¡Hola! Mi nombre es Valentina y hace más de dos años que me estoy involucrando en el mundo de la
+            programación. Soy una persona comprometida y responsable. Mis objetivos son aprender, disfrutar
+            de este camino de formación e insertarme en el mundo laboral. Me gusta trabajar en equipo y pienso que la clave está en la comunicación.
+           
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="color3">
+        <div id="contacto">
+            <h2 id="cont">Contacto</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="sm-12 col-lg-2"></div>
+                    <div class="sm-12 col-lg-8">
+                        <form action="https://formspree.io/f/mjvjjpon" method="POST" id="formulario">
+                            <div class="sm-12 col-lg-12">
+                                <label class="form-label">Nombre</label>
+                                <input name="nombre" type="text" class="form-control" id="exampleInputName1">
+                                <div id="namelHelp" class="form-text"></div>
+                            </div>
+
+                            <div class="sm-12 col-lg-12">
+                                <label class="form-label">Email</label>
+                                <input name="email" type="email" class="form-control" id="exampleInputEmail1">
+                                <div id="emailHelp" class="form-text"></div>
+                            </div>
+                            <div class="sm-12 col-lg-12">
+                                <label class="form-label">Número de teléfono</label>
+                                <input name="teléfono" type="tel" class="form-control" id="exampleInputtel1">
+                                <div id="telHelp" class="tel"></div>
+                            </div>
+                            <div>
+                                <label class="form-label">Mensaje
+                                    <textarea class="sm-12 col-lg-12 form-label " placeholder="Escribí aca..." rows="12"
+                                        cols="38"></textarea>
+                                </label>
+                                <div class="sm-12 col-lg-12">
+                                    <button type="submit" class="redondo dark">Enviar</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--COPYRIGHT-->
+    <div class="color">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-2"></div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="container"><strong>Dirección</strong></div>
+                    <div class="container">Pumacahua 873</div>
+                    <div class="container">CP 1406 CABA</div>
+                </div>
+                <div class="col-sm-12 col-lg-7">
+                    <div class="container text-center"><strong>En las redes sociales</strong></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-3"> </div>
+                    
+                            <div class="col-sm-12 col-lg-2 text-center">
+                                <a href="https://www.linkedin.com/in/valentinatagliaferro/">
+                                    <img class="icono" src="LI.JPG" alt="Linkedin">
+                                </a>
+                            </div>
+                    
+                            <div class="col-sm-12 col-lg-2 text-center">
+                                <a href="https://www.instagram.com/valentagliaferro/?hl=es">
+                                    <img class="icono" src="IG.JPG" alt="Instagram">
+                                </a>
+                            </div>
+                    
+                            <div class="col-sm-12 col-lg-2 text-center">
+                                <a href="https://wa.me/+5491136795691">
+                                    <img class="icono" src="WPP.JPG" alt="Wpp">
+                                </a>
+                            </div>
+                    
+                            <div class="col-sm-12 col-lg-2 text-center">
+                                <a href="https://github.com/valentaglia">
+                                    <img class="icono" src="gh.png" alt="GitHub">
+                                </a>
+                            </div>
+                    
+                            <div class="col-sm-12 col-lg-3"> </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+
+    <div class="color4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4"></div>
+                <div class="col-sm-12 col-lg-4">Copyright © tu sitio web 2023</div>
+                <div class="col-sm-12 col-lg-4"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
